@@ -9,3 +9,19 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgb(255, 89, 0);
+    width: 20%;
+    border-radius: 0.8rem;
+    margin: 0.5rem;
+
+}
