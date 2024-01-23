@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Dati da config/data.js: {{ $home }}</h1>
-    <p>This is my paragraph content.</p>
+<h1>film</h1>
+@php
+    var_dump($movies);
+@endphp
+
 @endsection
